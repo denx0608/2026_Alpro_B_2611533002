@@ -4,4 +4,3 @@ codes = input("Course codes: ").split()
 for code in codes:
     room = rooms.get(code, "not found")
     print(code, "->", room)
-
